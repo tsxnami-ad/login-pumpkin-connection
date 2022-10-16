@@ -1,0 +1,167 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    overflow-x: hidden;
+    overflow-y: auto;
+    background-image: url(../src/faa.png);
+    background-size: cover;
+    background-repeat: ;
+    min-height: 100vh;
+    background-repeat: no-repeat;
+    background-position: center center;
+    flex-grow: 1;
+}
+
+.header h3 {
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #000000;
+}
+
+.header input {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    outline: none;
+    border: none;
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+    height: 29px;
+    background-color: #dedede;
+    width: 200px;
+    border-radius: 50px;
+    padding-left: -2px;
+}
+
+.header input ::placeholder{
+    padding-left: 20px;
+    justify-content: center;
+    justify-items: center;
+}
+
+.header button {
+    outline: none;
+    border: none;
+    width: 80px;
+    height: 29px;
+    border-radius: 25px;
+    background-color: #dedede;
+    cursor: pointer;
+    font-family: Varela round;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-right: 0px;
+    gap: 30px;
+    background-color: white;
+    height: 45px;
+}
+
+.main {
+    width: 100vw;
+    height: 100vw;
+    min-height: 100vh;
+}
+
+.footer {
+ align-items: center;
+ justify-items: center;
+ justify-content: center;  
+ display: flex;
+ gap: 20px;
+ padding-top: 7px;
+ font-size: 12px; 
+}
+
+.lados {
+    gap: 10vw;
+    width: 100vw;
+    height: 93vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.left-side h1 {
+    text-shadow: 0px 5px 24px rgba(0, 0, 0, 0.458);
+    font-size: 190px;
+}
+
+.left-side span {
+    color: #f58d43;
+}
+
+.left-side {
+    border: black;
+    font-family: "Varela Round";
+    gap: 0px;
+    color: aliceblue;
+
+}
+
+.labels ::placeholder {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    padding-left: 15px;
+}
+
+.labels input {
+    border-radius: 14px;
+    height: 44px;
+    padding-left: 20px;
+    width: 210px;
+    outline: none;
+    border: none;
+    background-color: rgb(227, 227, 227);
+    box-shadow: 0px 10px 23px -5px rgb(206, 206, 206);
+}
+
+.labels {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 200;
+    display: flex;
+    flex-direction: column;
+    gap: 18px;
+    padding-bottom: 30px;
+}
+
+.card button {
+    box-shadow: 0px 13px 20px -10px #f58d43;
+    border-radius: 10px;
+    font-size: 12px;
+    color: azure;
+    background-color: #f88e42;
+    font-size: 14px;
+    font-family: Varela Round;
+    font-weight: 800;
+    outline: none;
+    border: none;
+    width: 240px;
+    height: 60px;
+    cursor: pointer;
+}
+
+.card h1 {
+    font-family: Varela Round;
+    color: #f58d43;
+}
+
+.card{
+    box-shadow: 0px 8px 50px -15px rgba(0, 0, 0, 0.871);
+    align-items: center;
+    gap: 23px;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(255, 255, 255);
+    width: 400px;
+    height: 500px;
+    border-radius: 48px;
+    padding: 10px 30px;
+}
